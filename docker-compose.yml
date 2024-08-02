@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./server
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./server:/app
+    environment:
+      - NODE_ENV=production
+
+  frontend:
+    build: ./client/auth-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
