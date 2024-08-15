@@ -1,8 +1,10 @@
 # BAINI
 
-A web application that allows signing and verification of images.
+A web application that allows the signing and verification of images.
 
 ## Description
+
+![Image Screenshot](https://gi9pozqnuexhf2qt.public.blob.vercel-storage.com/Baini-AHSGlxIvUiO5CQE8d5ED4yosBSLGLz.png)
 
 Baini is a web application that enables creators to provide tamper-evident signatures on images and provide information on the source and history of images as well as perform verification of the provenance information. Images are cryptographically hashed and signed, along with any provenance information the creator may choose to add. The signature is tamper-evident and thus can expose any changes from the original.
 
