@@ -29,7 +29,7 @@ const OneTapSignIn: React.FC = () => {
       if (window.google && window.google.accounts) {
         window.google.accounts.id.initialize({
           client_id:
-            "333479689357-ch87g7m3nitdjbt8m6f9sr7v34ackgtu.apps.googleusercontent.com",
+            "YOUR_CLIENT_ID.apps.googleusercontent.com",
           callback: handleCredentialResponse,
         });
 
